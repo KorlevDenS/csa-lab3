@@ -1,0 +1,7 @@
+22200007 {'opcode': 'ADD', 'addr_type': 2, 'args': ['r2', 'r0', 7]}
+71120000 {'opcode': 'LW', 'addr_type': 1, 'args': ['r1', 'r2']}
+f1100006 {'opcode': 'BEQ', 'args': ['r1', 'r0', 6]}
+11100001 {'opcode': 'OUT', 'args': ['r1', '1']}
+22220004 {'opcode': 'ADD', 'addr_type': 2, 'args': ['r2', 'r2', '4']}
+f0000001 {'opcode': 'JMP', 'args': [1]}
+00000010 {'opcode': 'HALT', 'args': []}
